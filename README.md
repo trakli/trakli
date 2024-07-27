@@ -1,4 +1,8 @@
-<p align="center"><a href="#" target="_blank"><img src="https://raw.githubusercontent.com/whilesmart/trakli/main/logo.svg" width="400" alt="Trakli Logo"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="https://raw.githubusercontent.com/trakli/trakli/main/logo.svg" width="400" alt="Trakli Logo"></a></p>
+
+| [Mobile](https://appdistribution.firebase.dev/i/ef5a870535504428) | [Frontend](https://trakli-ui.pages.dev/) | Web Service |
+|-|-|-|
+| [![Check, Test and Build](https://github.com/trakli/trakli-mobile/actions/workflows/build.yml/badge.svg)](https://github.com/trakli/trakli-mobile/actions/workflows/build.yml) | [![Lint](https://github.com/trakli/trakli-ui/actions/workflows/checks.yml/badge.svg)](https://github.com/trakli/trakli-ui/actions/workflows/checks.yml) | [![Checks](https://github.com/trakli/trakli-webservice/actions/workflows/checks.yml/badge.svg)](https://github.com/trakli/trakli-webservice/actions/workflows/checks.yml) |
 
 # Trakli
 
@@ -23,7 +27,7 @@ Before you start, ensure you have the following installed:
 **Clone the Repository (If not already done)**:
    - If you haven't already cloned the repository, you can do so using the following command:
      ```bash
-     git clone git@github.com:whilesmart/trakli.git
+     git clone git@github.com:trakli/trakli.git
      ```
    - Navigate to the project directory:
      ```bash
@@ -38,11 +42,11 @@ Before you start, ensure you have the following installed:
 
 #### Setup the Environment
 
-To set up the environment, use the provided `setup.bash` script:
+To set up the environment, use the provided `sync.bash` script:
 
 **Run the environment**:
    ```bash
-   ./tools/setup.bash
+   ./tools/sync.bash
    ```
 This script will clone the necessary repositories required to run Trakli.
 
